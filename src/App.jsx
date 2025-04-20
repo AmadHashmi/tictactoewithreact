@@ -23,7 +23,7 @@ function derivedActivePlayer(gameTurns) {
 }
 
 function driveGameBoard(gameTurns) {
-  let gameBoard = [...initialGameBaord.map((array) => [...array])];
+  let gameBoard = [...INITIAL_GAME_BAORD.map((array) => [...array])];
 
   for (const turn of gameTurns) {
     const { square, player } = turn;
